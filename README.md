@@ -1,18 +1,12 @@
-## Getting Started
+# DesafioControleFluxo
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este projeto visa desenvolver um sistema que receba dois parâmetros via terminal, representando dois números inteiros, e realize operações de controle de fluxo com base nesses números. O objetivo é praticar conceitos de manipulação de exceções, estruturas de repetição e entrada/saída no console em Java.
 
-## Folder Structure
+## Descrição do Projeto
 
-The workspace contains two folders by default, where:
+O sistema deverá executar as seguintes tarefas:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+1. Receber dois parâmetros inteiros via terminal.
+2. Validar se o primeiro parâmetro é menor que o segundo.
+3. Se a validação for bem-sucedida, imprimir no console uma sequência de números incrementados a partir de 1 até a diferença entre os dois parâmetros.
+4. Se a validação falhar, lançar uma exceção customizada informando que o segundo parâmetro deve ser maior que o primeiro.
